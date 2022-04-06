@@ -20,8 +20,8 @@ void stringmatch()
                 for (k = 0; rep[k] != '\0'; k++, j++)
                     ans[j] = rep[k];
                 i = 0;
-                c = m;
             }
+             c=m;
         }
         else
         {
