@@ -19,9 +19,9 @@ void stringmatch()
                 flag = 1;
                 for (k = 0; rep[k] != '\0'; k++, j++)
                     ans[j] = rep[k];
+                 c=m;
                 i = 0;
             }
-             c=m;
         }
         else
         {
