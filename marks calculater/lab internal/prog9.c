@@ -161,6 +161,9 @@ void main()
             evaluate(h1);
             break;
         case 2:
+            h1->next = h1;
+            h2->next = h2;
+            h3->next = h3;
             h1 = read_poly(h1);
             printf("the polynomial 1:\n");
             display(h1);
