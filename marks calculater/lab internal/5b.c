@@ -6,7 +6,7 @@ void tower(int n,int source,int temp, int destination){
         return;
     tower(n-1,source,destination,temp);
     printf("\n moves disc %d from %c to %c",n,source,destination);
-    tower(n-1,source,destination,temp);    
+    tower(n-1,temp,source,destination);    
 }
 void main(){
     int n;
